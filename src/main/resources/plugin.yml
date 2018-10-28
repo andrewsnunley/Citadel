@@ -4,3 +4,10 @@ description: Plugins kit for Andrew.
 author: Andrew
 website: http://www.andrewnunley.com
 main: com.andrewnunley.citadel.Citadel
+
+commands:
+  naharlcmd:
+    description: Does nothing
+    aliases: []
+    usage: |
+           /naharlcmd
