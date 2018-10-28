@@ -1,0 +1,6 @@
+name: Citadel
+version: 1.0
+description: Plugins kit for Andrew.
+author: Andrew
+website: http://www.andrewnunley.com
+main: com.andrewnunley.citadel.Citadel
