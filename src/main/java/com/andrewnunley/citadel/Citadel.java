@@ -7,6 +7,7 @@ public final class Citadel extends JavaPlugin {
     public void onEnable() {
         // startup
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(), this);
+        getServer().getPluginManager().registerEvents(new PlayerQuitListener(), this);
     }
    
     @Override

@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 public class CitadelCommandExecutor implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args) {
-        if (cmd.getName().equalsIgnoreCase("naharlcmd")) {
+        if (cmd.getName().equalsIgnoreCase("msg")) {
         	if (sender instanceof Player) {
     	        sender.sendMessage("Success.");
         	}

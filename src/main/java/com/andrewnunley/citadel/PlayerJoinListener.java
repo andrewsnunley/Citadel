@@ -9,6 +9,10 @@ public final class PlayerJoinListener implements Listener {
     @EventHandler
     public void onLogin(PlayerJoinEvent event) {
    	    Player player = event.getPlayer();
-   	    player.sendMessage("Welcome to Dev!");
+   	    player.sendMessage("Welcome to NunleyCraft!");
+   	    //if player has news
+   	    //player.sendMessage("You have count unread news items.");
+   	    //if player has messages
+   	    //player.sendMessage("You have count unread message(s).");
     }
 }
