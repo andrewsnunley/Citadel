@@ -6,8 +6,18 @@ website: http://www.andrewnunley.com
 main: com.andrewnunley.citadel.Citadel
 
 commands:
-  naharlcmd:
-    description: Does nothing
+  msg:
+    description: Send mail to players that is saved on the server
     aliases: []
     usage: |
-           /naharlcmd
+           /msg <recipient> <text>
+  recall:
+    description: Moves the player to the mark or spawn
+    aliases: []
+    usage: |
+           /recall [args]
+  mark:
+    description: Set the mark for recall
+    aliases: []
+    usage: |
+           /mark
